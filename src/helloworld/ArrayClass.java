@@ -9,17 +9,17 @@ package helloworld;
  * @author joede
  */
 public class ArrayClass {
-    public void printWordBackwords(String word)) {
+    public void printWordBackwords(String word) {
 
         // Verify there is at least 1 parameter
-        if (args.length < 1)
+        if (word.length() < 1)
         {
                 System.out.println("Need to provide 1 word as a parameter.");
                 return;
         }
 
             // Creating array of string length
-            String str = args[0];
+            String str = word;
         String[] arr = new String[str.length()];
         
         // Add a comment.
