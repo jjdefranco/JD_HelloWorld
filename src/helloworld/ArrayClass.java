@@ -23,7 +23,6 @@ public class ArrayClass {
         String[] arr = new String[str.length()];
         
         // Add a comment.
-        // Adding another comment.
 
         // Copy character by character into array
         // Index an array from 0 as the first up to 1 less than the length.
