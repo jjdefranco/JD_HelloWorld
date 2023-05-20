@@ -10,6 +10,16 @@ package helloworld;
  */
 public class ArrayClass {
     public void printWordBackwords(String word) {
+        
+        private String varStr;
+
+    public String getVarStr() {
+        return varStr;
+    }
+
+    public void setVarStr(String varStr) {
+        this.varStr = varStr;
+    }
 
         // Verify there is at least 1 parameter
         if (word.length() < 1)
