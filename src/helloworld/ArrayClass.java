@@ -5,8 +5,8 @@
 package helloworld;
 
 /**
- *
- * @author joede
+ * ArrayClass is used as a test class to work with GIT.
+ * @author joede 
  */
 public class ArrayClass {
     public void printWordBackwords(String word) {
